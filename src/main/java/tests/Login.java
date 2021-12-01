@@ -25,6 +25,7 @@ public class Login{
 			e.printStackTrace();
 		}
 		driver.findElement(By.xpath("//button[text()='Sign In']")).click();
+		System.out.println("Build completed");
 		driver.close();
 		
 	}
